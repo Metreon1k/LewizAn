@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "lewizan",
+	"version": "${version}",
+	"name": "LewizAn",
+	"icon": "assets/lewizan/icon.png",
+	"description": "Быстрый заход на анархию по команде /an <номер>.",
+	"authors": ["LewizDev"],
+	"contact": {
+		"homepage": "https://t.me/LewizDev"
+	},
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.lewiz.an.LewizAnClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
